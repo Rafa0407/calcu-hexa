@@ -1,13 +1,19 @@
-This is my first contribution on github, with this starter project you can do a single app using Angular js, Angular Material as a UI Component framework, ui-router -> https://scotch.io/tutorials/angular-routing-using-ui-router. 
-I implement Gulp for task manager. 
+Herramientas utilizadas 
 
-You must have 
-- Node.js -> https://nodejs.org/es/download/  and 
-- Bower -> https://bower.io/ installed
+- Angular.js (SPA Framerwork)  
+- Angular Material (UI Framework) 
 
-After install everything, just type: 
-- npm install 
-- and then, change your path to app/ and type bower install
-- return to the principal path of the project and type gulp
+Pequeña calculadora en base hexadecimal como tarea académica 
 
-With the gulp task, the browser will reload automatically  if one file (.css .js .scss) have a change
+Pasos para correr: 
+
+1- Tener node instalado 
+2- Instalar globalmente bower, gulp (npm install -g bower && gulp) 
+3- Desde la carpeta raiz correr los siguientes comandos 
+   - npm install 
+   - cd app 
+     - bower install (pronto se hará el cambio a Yarn, ya que Bower dejará de funcionar)  
+   - cd .. 
+   - gulp  
+ y Listo.... 
+Todos los cambios que se realicen seran recargados automaticamente en el nevagador. 
